@@ -1,4 +1,4 @@
-package kevinjoramos.androidapptemplate
+package kevinjoramos.androidapptemplate.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

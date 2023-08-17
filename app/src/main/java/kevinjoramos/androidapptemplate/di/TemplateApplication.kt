@@ -1,4 +1,4 @@
-package kevinjoramos.androidapptemplate
+package kevinjoramos.androidapptemplate.di
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
