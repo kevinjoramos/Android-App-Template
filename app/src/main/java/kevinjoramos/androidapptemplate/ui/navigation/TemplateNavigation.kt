@@ -12,9 +12,8 @@ fun TemplateNavigation() {
     val navController = rememberNavController()
     NavHost(
         navController = navController,
-        startDestination = AppDestination.SplashScreen.route,
+        startDestination = AppDestination.PrimaryScreen.route,
     ) {
-        composable(AppDestination.SplashScreen.route) { SplashScreen() }
         composable(AppDestination.PrimaryScreen.route) { PrimaryScreen() }
     }
 }
