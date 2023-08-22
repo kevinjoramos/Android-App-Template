@@ -15,12 +15,12 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import dagger.hilt.android.AndroidEntryPoint
 import kevinjoramos.androidapptemplate.ui.navigation.TemplateNavigation
 import kevinjoramos.androidapptemplate.ui.theme.AndroidAppTemplateTheme
-import kevinjoramos.androidapptemplate.ui.viewmodel.PrimaryViewModel
+import kevinjoramos.androidapptemplate.ui.viewmodel.TemplateViewModel
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
-    private val primaryViewModel: PrimaryViewModel by viewModels()
+    private val templateViewModel: TemplateViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
