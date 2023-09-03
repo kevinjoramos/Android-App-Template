@@ -158,10 +158,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] Add dependency injection with Hilt.
+- [x] Add splash screen.
+- [x] Add basic screen, viewmodel class, and repository class.
+- [ ] Add navigation.
+- [ ] Build project initializer web app.
+  - [ ] Add retrofit option.
 
 See the [open issues](https://github.com/kevinjoramos/Android-App-Template/issues) for a full list of proposed features (and known issues).
 
