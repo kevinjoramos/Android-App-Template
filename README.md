@@ -164,6 +164,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Add navigation.
 - [ ] Build project initializer web app.
   - [ ] Add retrofit option.
+  - [ ] XML vs Compose option.
 
 See the [open issues](https://github.com/kevinjoramos/Android-App-Template/issues) for a full list of proposed features (and known issues).
 
