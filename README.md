@@ -162,9 +162,14 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [x] Add splash screen.
 - [x] Add basic screen, viewmodel class, and repository class.
 - [ ] Add navigation.
+- [ ] Add usage section to README.
 - [ ] Build project initializer web app.
-  - [ ] Add retrofit option.
+  - [ ] Android version selector.
   - [ ] XML vs Compose option.
+  - [ ] Build tool selector.
+  - [ ] Retrofit Add-on.
+  - [ ] Room Database Add-on.
+  - [ ] Image Library Add-on.
 
 See the [open issues](https://github.com/kevinjoramos/Android-App-Template/issues) for a full list of proposed features (and known issues).
 
@@ -202,7 +207,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Kevin Ramos - [@KevinJoRamos](https://twitter.com/KevinJoRamos) - kevin.jo.ramos@gmail.com
 
 Project Link: [https://github.com/kevinjoramos/Android-App-Template](https://github.com/kevinjoramos/Android-App-Template)
 
@@ -213,9 +218,7 @@ Project Link: [https://github.com/kevinjoramos/Android-App-Template](https://git
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [othneildrew's Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
