@@ -17,8 +17,6 @@ import kevinjoramos.androidapptemplate.ui.viewmodel.TemplateViewModel
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
-    private val templateViewModel: TemplateViewModel by viewModels()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         installSplashScreen()
