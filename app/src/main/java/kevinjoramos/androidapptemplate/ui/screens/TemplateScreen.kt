@@ -15,6 +15,9 @@ fun TemplateScreen(
     viewModel: TemplateViewModel = hiltViewModel()
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
+
+    viewModel.fetchMessage()
+
     when (uiState){
         is TemplateUiState.Loading -> CircularProgressIndicator()
         is TemplateUiState.Error -> Greeting((uiState as TemplateUiState.Error).message ?: "There was an unexpected error.")
